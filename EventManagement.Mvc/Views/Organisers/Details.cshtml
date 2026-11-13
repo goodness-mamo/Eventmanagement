@@ -1,0 +1,52 @@
+﻿@model EventManagement.Mvc.Models.ViewModels.OrganiserViewModel
+
+@{
+    ViewData["Title"] = "Organiser Details";
+}
+
+<div class="container mt-4">
+
+    <div class="card shadow-sm">
+        <div class="card-header">
+            <h3>Organiser Details</h3>
+        </div>
+
+        <div class="card-body">
+
+            <dl class="row">
+
+                <dt class="col-sm-3">Organiser ID</dt>
+                <dd class="col-sm-9">@Model.OrganiserId</dd>
+
+                <dt class="col-sm-3">User ID</dt>
+                <dd class="col-sm-9">@Model.UserId</dd>
+
+                <dt class="col-sm-3">Organisation</dt>
+                <dd class="col-sm-9">@Model.OrganisationName</dd>
+
+                <dt class="col-sm-3">First Name</dt>
+                <dd class="col-sm-9">@Model.FirstName</dd>
+
+                <dt class="col-sm-3">Last Name</dt>
+                <dd class="col-sm-9">@Model.LastName</dd>
+
+                <dt class="col-sm-3">Email</dt>
+                <dd class="col-sm-9">@Model.Email</dd>
+
+            </dl>
+
+            <a asp-action="Edit"
+               asp-route-id="@Model.OrganiserId"
+               class="btn btn-warning">
+                Edit Organiser
+            </a>
+
+            <a asp-action="Index" class="btn btn-secondary">
+                Back to Organisers
+            </a>
+
+        </div>
+    </div>
+
+</div>
+

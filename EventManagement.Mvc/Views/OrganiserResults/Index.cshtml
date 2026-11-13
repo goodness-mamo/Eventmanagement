@@ -1,0 +1,99 @@
+﻿@model List<EventManagement.Mvc.Models.ViewModels.ResultViewModel>
+
+@{
+    ViewData["Title"] = "Results Management";
+}
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <div>
+            <h2>Results Management</h2>
+            <p class="text-muted">
+                View and manage participant race results.
+            </p>
+        </div>
+
+        <a asp-action="Create" class="btn btn-primary">
+            Record New Result
+        </a>
+    </div>
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success">
+            @TempData["SuccessMessage"]
+        </div>
+    }
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">
+            @TempData["ErrorMessage"]
+        </div>
+    }
+
+    @if (ViewBag.Error != null)
+    {
+        <div class="alert alert-danger">
+            @ViewBag.Error
+        </div>
+    }
+
+    @if (Model == null || !Model.Any())
+    {
+        <div class="alert alert-info">
+            No race results have been recorded yet.
+        </div>
+    }
+    else
+    {
+        <div class="card shadow-sm">
+            <div class="card-body table-responsive">
+                <table class="table table-striped table-hover align-middle">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Position</th>
+                            <th>Participant</th>
+                            <th>Event</th>
+                            <th>Category</th>
+                            <th>Race Number</th>
+                            <th>Finish Time</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        @foreach (var result in Model.OrderBy(
+                            r => r.Position ?? int.MaxValue))
+                        {
+                            <tr>
+                                <td>
+                                    @(result.Position?.ToString() ?? "-")
+                                </td>
+                                <td>@result.ParticipantName</td>
+                                <td>@result.EventName</td>
+                                <td>@result.CategoryName</td>
+                                <td>@result.RaceNumber</td>
+                                <td>
+                                    @(result.FinishTime?.ToString() ?? "-")
+                                </td>
+                                <td>
+                                    @result.ResultStatus
+                                </td>
+                                <td>
+                                    <a asp-action="Edit"
+                                       asp-route-id="@result.ResultId"
+                                       class="btn btn-sm btn-outline-primary">
+                                        Edit
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    }
+</div>
+

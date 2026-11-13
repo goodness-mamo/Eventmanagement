@@ -1,0 +1,152 @@
+﻿@model EventManagement.Mvc.Models.ViewModels.CreateResultViewModel
+
+@{
+    ViewData["Title"] = "Record Race Result";
+}
+
+<div class="container mt-4">
+
+    <div class="card shadow-sm">
+
+        <div class="card-header">
+            <h3>Record Race Result</h3>
+        </div>
+
+        <div class="card-body">
+
+            <form asp-action="Create" method="post">
+
+                <div asp-validation-summary="ModelOnly"
+                     class="alert alert-danger">
+                </div>
+
+                <!-- Participant Enrolment -->
+                <div class="mb-3">
+
+                    <label asp-for="EnrolmentId"
+                           class="form-label">
+                        Select Participant Enrolment
+                    </label>
+
+                    <select asp-for="EnrolmentId"
+                            class="form-select">
+
+                        <option value="">
+                            -- Select Enrolment --
+                        </option>
+
+                        @foreach (var enrolment in Model.AvailableEnrolments)
+                        {
+                            <option value="@enrolment.EnrolmentId">
+                                @enrolment.ParticipantName
+                                - @enrolment.EventName
+                                - @enrolment.CategoryName
+                                - Race No: @enrolment.RaceNumber
+                            </option>
+                        }
+
+                    </select>
+
+                    <span asp-validation-for="EnrolmentId"
+                          class="text-danger">
+                    </span>
+
+                </div>
+
+                <!-- Finishing Position -->
+                <div class="mb-3">
+
+                    <label asp-for="Position"
+                           class="form-label">
+                        Finishing Position
+                    </label>
+
+                    <input asp-for="Position"
+                           type="number"
+                           min="1"
+                           class="form-control"
+                           placeholder="e.g. 1" />
+
+                    <span asp-validation-for="Position"
+                          class="text-danger">
+                    </span>
+
+                </div>
+
+                <!-- Finish Time -->
+                <div class="mb-3">
+
+                    <label asp-for="FinishTime"
+                           class="form-label">
+                        Finish Time
+                    </label>
+
+                    <input asp-for="FinishTime"
+                           type="time"
+                           step="1"
+                           class="form-control" />
+
+                    <span asp-validation-for="FinishTime"
+                          class="text-danger">
+                    </span>
+
+                    <small class="text-muted">
+                        Enter the finishing time, if available.
+                    </small>
+
+                </div>
+
+                <!-- Result Status -->
+                <div class="mb-3">
+
+                    <label asp-for="ResultStatus"
+                           class="form-label">
+                        Result Status
+                    </label>
+
+                    <select asp-for="ResultStatus"
+                            class="form-select">
+
+                        <option value="Finished">
+                            Finished
+                        </option>
+
+                        <option value="DidNotFinish">
+                            Did Not Finish
+                        </option>
+
+                        <option value="Disqualified">
+                            Disqualified
+                        </option>
+
+                    </select>
+
+                    <span asp-validation-for="ResultStatus"
+                          class="text-danger">
+                    </span>
+
+                </div>
+
+                <!-- Form Actions -->
+                <button type="submit"
+                        class="btn btn-primary">
+                    Save Result
+                </button>
+
+                <a asp-action="Index"
+                   class="btn btn-secondary">
+                    Cancel
+                </a>
+
+            </form>
+
+        </div>
+    </div>
+
+</div>
+
+@section Scripts {
+
+    <partial name="_ValidationScriptsPartial" />
+
+}

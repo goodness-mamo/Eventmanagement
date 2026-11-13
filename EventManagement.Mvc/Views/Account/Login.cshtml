@@ -1,0 +1,82 @@
+﻿@model EventManagement.Mvc.Models.ViewModels.LoginViewModel
+
+@{
+    ViewData["Title"] = "Participant Login";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-5">
+
+            <div class="card shadow">
+                <div class="card-header bg-primary text-white">
+                    <h3 class="mb-0">Participant Login</h3>
+                </div>
+
+                <div class="card-body">
+
+                    <form asp-controller="Account"
+                          asp-action="Login"
+                          method="post">
+
+                        @Html.AntiForgeryToken()
+
+                        <div asp-validation-summary="All"
+                             class="text-danger mb-3">
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Email"
+                                   class="form-label"></label>
+
+                            <input asp-for="Email"
+                                   class="form-control"
+                                   type="email"
+                                   autocomplete="username"
+                                   placeholder="Enter your email" />
+
+                            <span asp-validation-for="Email"
+                                  class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Password"
+                                   class="form-label"></label>
+
+                            <input asp-for="Password"
+                                   class="form-control"
+                                   type="password"
+                                   autocomplete="current-password"
+                                   placeholder="Enter your password" />
+
+                            <span asp-validation-for="Password"
+                                  class="text-danger"></span>
+                        </div>
+
+                        <button type="submit"
+                                class="btn btn-primary w-100">
+                            Login
+                        </button>
+
+                    </form>
+
+                    <div class="text-center mt-3">
+                        Don't have an account?
+
+                        <a asp-controller="Account"
+                           asp-action="Register">
+                            Register here
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+

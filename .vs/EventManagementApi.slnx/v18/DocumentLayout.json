@@ -1,0 +1,2068 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\services\\blobstorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\services\\blobstorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagement.mvc\\controllers\\participantdashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|solutionrelative:eventmanagement.mvc\\controllers\\participantdashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\models\\entities\\eventcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\models\\entities\\eventcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\dtos\\results\\resultresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\dtos\\results\\resultresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\controllers\\resultscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\controllers\\resultscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\models\\entities\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\models\\entities\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\models\\entities\\events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\models\\entities\\events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\models\\entities\\enrolments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\models\\entities\\enrolments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagement.mvc\\services\\resultsapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|solutionrelative:eventmanagement.mvc\\services\\resultsapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagement.mvc\\models\\viewmodels\\participantdashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|solutionrelative:eventmanagement.mvc\\models\\viewmodels\\participantdashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagement.mvc\\models\\viewmodels\\resultviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|solutionrelative:eventmanagement.mvc\\models\\viewmodels\\resultviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagement.mvc\\views\\participantdashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|solutionrelative:eventmanagement.mvc\\views\\participantdashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AE000C7-0FDB-4865-8525-9469E78DFE54}|EventManagementApi.Tests\\EventManagementApi.Tests.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi.tests\\controllers\\participantscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AE000C7-0FDB-4865-8525-9469E78DFE54}|EventManagementApi.Tests\\EventManagementApi.Tests.csproj|solutionrelative:eventmanagementapi.tests\\controllers\\participantscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AE000C7-0FDB-4865-8525-9469E78DFE54}|EventManagementApi.Tests\\EventManagementApi.Tests.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi.tests\\controllers\\eventscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AE000C7-0FDB-4865-8525-9469E78DFE54}|EventManagementApi.Tests\\EventManagementApi.Tests.csproj|solutionrelative:eventmanagementapi.tests\\controllers\\eventscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\controllers\\participantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\controllers\\participantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagement.mvc\\views\\organiserresults\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|solutionrelative:eventmanagement.mvc\\views\\organiserresults\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagement.mvc\\views\\organiserresults\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|solutionrelative:eventmanagement.mvc\\views\\organiserresults\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagement.mvc\\models\\viewmodels\\updateresultviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|solutionrelative:eventmanagement.mvc\\models\\viewmodels\\updateresultviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagement.mvc\\models\\viewmodels\\createresultviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|solutionrelative:eventmanagement.mvc\\models\\viewmodels\\createresultviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagement.mvc\\views\\organisers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|solutionrelative:eventmanagement.mvc\\views\\organisers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagement.mvc\\controllers\\organiserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|solutionrelative:eventmanagement.mvc\\controllers\\organiserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagement.mvc\\views\\organisers\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|solutionrelative:eventmanagement.mvc\\views\\organisers\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagement.mvc\\views\\organiserresults\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|solutionrelative:eventmanagement.mvc\\views\\organiserresults\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagement.mvc\\controllers\\organiserresultscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|solutionrelative:eventmanagement.mvc\\controllers\\organiserresultscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagement.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|solutionrelative:eventmanagement.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagement.mvc\\models\\viewmodels\\enrolmentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|solutionrelative:eventmanagement.mvc\\models\\viewmodels\\enrolmentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\controllers\\enrolmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\controllers\\enrolmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagement.mvc\\services\\organiserapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|solutionrelative:eventmanagement.mvc\\services\\organiserapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagement.mvc\\services\\participantapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|solutionrelative:eventmanagement.mvc\\services\\participantapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\models\\entities\\results.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\models\\entities\\results.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\dtos\\results\\updateresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\dtos\\results\\updateresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\dtos\\results\\createresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\dtos\\results\\createresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagement.mvc\\models\\viewmodels\\eventviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|solutionrelative:eventmanagement.mvc\\models\\viewmodels\\eventviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagement.mvc\\models\\viewmodels\\organiserdashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|solutionrelative:eventmanagement.mvc\\models\\viewmodels\\organiserdashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagement.mvc\\views\\organisers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|solutionrelative:eventmanagement.mvc\\views\\organisers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagement.mvc\\views\\organisers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|solutionrelative:eventmanagement.mvc\\views\\organisers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\models\\entities\\participants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\models\\entities\\participants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagement.mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|solutionrelative:eventmanagement.mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagement.mvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|solutionrelative:eventmanagement.mvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagement.mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|solutionrelative:eventmanagement.mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\controllers\\organiserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\controllers\\organiserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\models\\entities\\organiser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\models\\entities\\organiser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagement.mvc\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|solutionrelative:eventmanagement.mvc\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagement.mvc\\models\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|solutionrelative:eventmanagement.mvc\\models\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagement.mvc\\eventmanagement.mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|solutionrelative:eventmanagement.mvc\\eventmanagement.mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagement.mvc\\eventmanagement.mvc.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|solutionrelative:eventmanagement.mvc\\eventmanagement.mvc.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagement.mvc\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|solutionrelative:eventmanagement.mvc\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagement.mvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|solutionrelative:eventmanagement.mvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagement.mvc\\controllers\\enrolmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|solutionrelative:eventmanagement.mvc\\controllers\\enrolmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagement.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|solutionrelative:eventmanagement.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagement.mvc\\views\\organisers\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|solutionrelative:eventmanagement.mvc\\views\\organisers\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagement.mvc\\models\\viewmodels\\organiserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|solutionrelative:eventmanagement.mvc\\models\\viewmodels\\organiserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\dtos\\enrolments\\enrolmentresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\dtos\\enrolments\\enrolmentresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\dtos\\eventcategories\\eventcategoryresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\dtos\\eventcategories\\eventcategoryresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\dtos\\organisers\\createorganiserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\dtos\\organisers\\createorganiserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\dtos\\organisers\\organiserresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\dtos\\organisers\\organiserresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AE000C7-0FDB-4865-8525-9469E78DFE54}|EventManagementApi.Tests\\EventManagementApi.Tests.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi.tests\\controllers\\organiserscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AE000C7-0FDB-4865-8525-9469E78DFE54}|EventManagementApi.Tests\\EventManagementApi.Tests.csproj|solutionrelative:eventmanagementapi.tests\\controllers\\organiserscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagement.mvc\\views\\enrolments\\enrolnow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|solutionrelative:eventmanagement.mvc\\views\\enrolments\\enrolnow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagement.mvc\\models\\viewmodels\\enrolmentcreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|solutionrelative:eventmanagement.mvc\\models\\viewmodels\\enrolmentcreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagement.mvc\\models\\viewmodels\\eventcategoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|solutionrelative:eventmanagement.mvc\\models\\viewmodels\\eventcategoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\controllers\\eventcategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\controllers\\eventcategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\services\\implementations\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\services\\implementations\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\dtos\\auth\\createenrolmentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\dtos\\auth\\createenrolmentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AE000C7-0FDB-4865-8525-9469E78DFE54}|EventManagementApi.Tests\\EventManagementApi.Tests.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi.tests\\controllers\\enrolmentscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AE000C7-0FDB-4865-8525-9469E78DFE54}|EventManagementApi.Tests\\EventManagementApi.Tests.csproj|solutionrelative:eventmanagementapi.tests\\controllers\\enrolmentscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagement.mvc\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|solutionrelative:eventmanagement.mvc\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagement.mvc\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|solutionrelative:eventmanagement.mvc\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\dtos\\auth\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\dtos\\auth\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagement.mvc\\services\\authenticationapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|solutionrelative:eventmanagement.mvc\\services\\authenticationapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagement.mvc\\models\\viewmodels\\apiauthresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|solutionrelative:eventmanagement.mvc\\models\\viewmodels\\apiauthresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagement.mvc\\models\\viewmodels\\registerviewmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|solutionrelative:eventmanagement.mvc\\models\\viewmodels\\registerviewmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagement.mvc\\services\\apiconnectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|solutionrelative:eventmanagement.mvc\\services\\apiconnectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AE000C7-0FDB-4865-8525-9469E78DFE54}|EventManagementApi.Tests\\EventManagementApi.Tests.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi.tests\\eventmanagementapi.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4AE000C7-0FDB-4865-8525-9469E78DFE54}|EventManagementApi.Tests\\EventManagementApi.Tests.csproj|solutionrelative:eventmanagementapi.tests\\eventmanagementapi.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\dtos\\auth\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\dtos\\auth\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\dtos\\auth\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\dtos\\auth\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\models\\entities\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\models\\entities\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagement.mvc\\controllers\\apistatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|solutionrelative:eventmanagement.mvc\\controllers\\apistatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagement.mvc\\views\\apistatus\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|solutionrelative:eventmanagement.mvc\\views\\apistatus\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagement.mvc\\views\\apistatus\\index.cshtml||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC640FB-9341-4FC0-89DE-BA1F5D85EDDA}|EventManagement.Mvc\\EventManagement.Mvc.csproj|solutionrelative:eventmanagement.mvc\\views\\apistatus\\index.cshtml||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AE000C7-0FDB-4865-8525-9469E78DFE54}|EventManagementApi.Tests\\EventManagementApi.Tests.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi.tests\\controllers\\userscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AE000C7-0FDB-4865-8525-9469E78DFE54}|EventManagementApi.Tests\\EventManagementApi.Tests.csproj|solutionrelative:eventmanagementapi.tests\\controllers\\userscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AE000C7-0FDB-4865-8525-9469E78DFE54}|EventManagementApi.Tests\\EventManagementApi.Tests.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi.tests\\helpers\\testdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AE000C7-0FDB-4865-8525-9469E78DFE54}|EventManagementApi.Tests\\EventManagementApi.Tests.csproj|solutionrelative:eventmanagementapi.tests\\helpers\\testdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jan Seopa\\AppData\\Roaming\\Microsoft\\UserSecrets\\02712c26-ea1a-42c7-aa46-5c950c595469\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\services\\implementations\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\services\\implementations\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\services\\interfaces\\ieventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\services\\interfaces\\ieventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\dtos\\events\\createeventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\dtos\\events\\createeventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\data\\configurations\\eventconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\data\\configurations\\eventconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\dtos\\events\\eventresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\dtos\\events\\eventresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\dtos\\events\\updateeventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\dtos\\events\\updateeventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\services\\implementations\\resultservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\services\\implementations\\resultservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\services\\implementations\\enrolmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\services\\implementations\\enrolmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\services\\implementations\\participantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\services\\implementations\\participantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\services\\implementations\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\services\\implementations\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\services\\implementations\\organiserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\services\\implementations\\organiserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\services\\implementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\services\\implementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\services\\interfaces\\iresultservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\services\\interfaces\\iresultservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\services\\interfaces\\ienrolmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\services\\interfaces\\ienrolmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\services\\interfaces\\iparticipantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\services\\interfaces\\iparticipantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\services\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\services\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\services\\interfaces\\iorganiserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\services\\interfaces\\iorganiserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\dtos\\enrolments\\updateenrolmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\dtos\\enrolments\\updateenrolmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\dtos\\enrolments\\createenrolmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\dtos\\enrolments\\createenrolmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\dtos\\participants\\participantresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\dtos\\participants\\participantresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\dtos\\participants\\updateparticipantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\dtos\\participants\\updateparticipantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\dtos\\participants\\createparticipantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\dtos\\participants\\createparticipantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\dtos\\eventcategories\\createeventcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\dtos\\eventcategories\\createeventcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\dtos\\categories\\categoryresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\dtos\\categories\\categoryresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\dtos\\categories\\updatecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\dtos\\categories\\updatecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\dtos\\categories\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\dtos\\categories\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\dtos\\users\\userresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\dtos\\users\\userresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\dtos\\users\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\dtos\\users\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\dtos\\users\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\dtos\\users\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\data\\configurations\\resultconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\data\\configurations\\resultconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\data\\configurations\\enrolmentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\data\\configurations\\enrolmentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\data\\configurations\\participantconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\data\\configurations\\participantconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\data\\configurations\\eventcategoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\data\\configurations\\eventcategoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\data\\configurations\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\data\\configurations\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\data\\configurations\\organiserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\data\\configurations\\organiserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|c:\\users\\jan seopa\\source\\repos\\eventmanagementapi\\eventmanagementapi\\data\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CB7DC0E-3043-B05B-7466-EC5474386689}|EventManagementApi\\EventManagementApi.csproj|solutionrelative:eventmanagementapi\\data\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ResultResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\Results\\ResultResponseDto.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\DTOs\\Results\\ResultResponseDto.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\Results\\ResultResponseDto.cs",
+              "RelativeToolTip": "EventManagementApi\\DTOs\\Results\\ResultResponseDto.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAswBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:34:54.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Enrolments.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Models\\Entities\\Enrolments.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\Models\\Entities\\Enrolments.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Models\\Entities\\Enrolments.cs",
+              "RelativeToolTip": "EventManagementApi\\Models\\Entities\\Enrolments.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T13:59:57.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EventCategory.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Models\\Entities\\EventCategory.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\Models\\Entities\\EventCategory.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Models\\Entities\\EventCategory.cs",
+              "RelativeToolTip": "EventManagementApi\\Models\\Entities\\EventCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:23:30.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Events.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Models\\Entities\\Events.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\Models\\Entities\\Events.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Models\\Entities\\Events.cs",
+              "RelativeToolTip": "EventManagementApi\\Models\\Entities\\Events.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAzwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T13:59:18.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Categories.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Models\\Entities\\Categories.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\Models\\Entities\\Categories.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Models\\Entities\\Categories.cs",
+              "RelativeToolTip": "EventManagementApi\\Models\\Entities\\Categories.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T13:59:32.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BlobStorageService.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Services\\BlobStorageService.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\Services\\BlobStorageService.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Services\\BlobStorageService.cs",
+              "RelativeToolTip": "EventManagementApi\\Services\\BlobStorageService.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAjwHgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T16:31:50.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ParticipantDashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Controllers\\ParticipantDashboardController.cs",
+              "RelativeDocumentMoniker": "EventManagement.Mvc\\Controllers\\ParticipantDashboardController.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Controllers\\ParticipantDashboardController.cs",
+              "RelativeToolTip": "EventManagement.Mvc\\Controllers\\ParticipantDashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T15:44:18.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ResultsController.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Controllers\\ResultsController.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\Controllers\\ResultsController.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Controllers\\ResultsController.cs",
+              "RelativeToolTip": "EventManagementApi\\Controllers\\ResultsController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAUwPYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T17:38:00.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ResultsApiService.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Services\\ResultsApiService.cs",
+              "RelativeDocumentMoniker": "EventManagement.Mvc\\Services\\ResultsApiService.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Services\\ResultsApiService.cs",
+              "RelativeToolTip": "EventManagement.Mvc\\Services\\ResultsApiService.cs",
+              "ViewState": "AgIAANsAAAAAAAAAAAAswOYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-13T06:58:28.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ParticipantDashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Models\\ViewModels\\ParticipantDashboardViewModel.cs",
+              "RelativeDocumentMoniker": "EventManagement.Mvc\\Models\\ViewModels\\ParticipantDashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Models\\ViewModels\\ParticipantDashboardViewModel.cs",
+              "RelativeToolTip": "EventManagement.Mvc\\Models\\ViewModels\\ParticipantDashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T15:41:21.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ResultViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Models\\ViewModels\\ResultViewModel.cs",
+              "RelativeDocumentMoniker": "EventManagement.Mvc\\Models\\ViewModels\\ResultViewModel.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Models\\ViewModels\\ResultViewModel.cs",
+              "RelativeToolTip": "EventManagement.Mvc\\Models\\ViewModels\\ResultViewModel.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAswAoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-13T06:55:45.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Views\\ParticipantDashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "EventManagement.Mvc\\Views\\ParticipantDashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Views\\ParticipantDashboard\\Index.cshtml",
+              "RelativeToolTip": "EventManagement.Mvc\\Views\\ParticipantDashboard\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALoBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-08T15:45:53.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ParticipantsControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi.Tests\\Controllers\\ParticipantsControllerTests.cs",
+              "RelativeDocumentMoniker": "EventManagementApi.Tests\\Controllers\\ParticipantsControllerTests.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi.Tests\\Controllers\\ParticipantsControllerTests.cs",
+              "RelativeToolTip": "EventManagementApi.Tests\\Controllers\\ParticipantsControllerTests.cs",
+              "ViewState": "AgIAANcAAAAAAAAAAAAswN4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-13T07:51:02.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EventsController.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Controllers\\EventsController.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\Controllers\\EventsController.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Controllers\\EventsController.cs",
+              "RelativeToolTip": "EventManagementApi\\Controllers\\EventsController.cs",
+              "ViewState": "AgIAAPcAAAAAAAAAAAAswAoBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:15:25.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EventsControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi.Tests\\Controllers\\EventsControllerTests.cs",
+              "RelativeDocumentMoniker": "EventManagementApi.Tests\\Controllers\\EventsControllerTests.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi.Tests\\Controllers\\EventsControllerTests.cs",
+              "RelativeToolTip": "EventManagementApi.Tests\\Controllers\\EventsControllerTests.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAswF0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T13:34:42.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ParticipantsController.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Controllers\\ParticipantsController.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\Controllers\\ParticipantsController.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Controllers\\ParticipantsController.cs",
+              "RelativeToolTip": "EventManagementApi\\Controllers\\ParticipantsController.cs",
+              "ViewState": "AgIAAEoBAAAAAAAAAAAswF0BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T15:31:03.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Views\\OrganiserResults\\Edit.cshtml",
+              "RelativeDocumentMoniker": "EventManagement.Mvc\\Views\\OrganiserResults\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Views\\OrganiserResults\\Edit.cshtml",
+              "RelativeToolTip": "EventManagement.Mvc\\Views\\OrganiserResults\\Edit.cshtml",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAswI0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-13T07:06:32.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Views\\OrganiserResults\\Create.cshtml",
+              "RelativeDocumentMoniker": "EventManagement.Mvc\\Views\\OrganiserResults\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Views\\OrganiserResults\\Create.cshtml",
+              "RelativeToolTip": "EventManagement.Mvc\\Views\\OrganiserResults\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-13T07:06:10.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UpdateResultViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Models\\ViewModels\\UpdateResultViewModel.cs",
+              "RelativeDocumentMoniker": "EventManagement.Mvc\\Models\\ViewModels\\UpdateResultViewModel.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Models\\ViewModels\\UpdateResultViewModel.cs",
+              "RelativeToolTip": "EventManagement.Mvc\\Models\\ViewModels\\UpdateResultViewModel.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAswBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-13T06:57:22.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CreateResultViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Models\\ViewModels\\CreateResultViewModel.cs",
+              "RelativeDocumentMoniker": "EventManagement.Mvc\\Models\\ViewModels\\CreateResultViewModel.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Models\\ViewModels\\CreateResultViewModel.cs",
+              "RelativeToolTip": "EventManagement.Mvc\\Models\\ViewModels\\CreateResultViewModel.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA9wBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-13T06:56:40.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Views\\Organisers\\Create.cshtml",
+              "RelativeDocumentMoniker": "EventManagement.Mvc\\Views\\Organisers\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Views\\Organisers\\Create.cshtml",
+              "RelativeToolTip": "EventManagement.Mvc\\Views\\Organisers\\Create.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-08T18:22:51.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "OrganisersController.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Controllers\\OrganisersController.cs",
+              "RelativeDocumentMoniker": "EventManagement.Mvc\\Controllers\\OrganisersController.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Controllers\\OrganisersController.cs",
+              "RelativeToolTip": "EventManagement.Mvc\\Controllers\\OrganisersController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAqwEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T18:09:56.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Views\\Organisers\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "EventManagement.Mvc\\Views\\Organisers\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Views\\Organisers\\Dashboard.cshtml",
+              "RelativeToolTip": "EventManagement.Mvc\\Views\\Organisers\\Dashboard.cshtml",
+              "ViewState": "AgIAAMsAAAAAAAAAAAAswN4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-09T13:57:10.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Views\\OrganiserResults\\Index.cshtml",
+              "RelativeDocumentMoniker": "EventManagement.Mvc\\Views\\OrganiserResults\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Views\\OrganiserResults\\Index.cshtml",
+              "RelativeToolTip": "EventManagement.Mvc\\Views\\OrganiserResults\\Index.cshtml",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAswGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-13T07:05:44.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "OrganiserResultsController.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Controllers\\OrganiserResultsController.cs",
+              "RelativeDocumentMoniker": "EventManagement.Mvc\\Controllers\\OrganiserResultsController.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Controllers\\OrganiserResultsController.cs",
+              "RelativeToolTip": "EventManagement.Mvc\\Controllers\\OrganiserResultsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-13T07:01:27.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Results.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Models\\Entities\\Results.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\Models\\Entities\\Results.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Models\\Entities\\Results.cs",
+              "RelativeToolTip": "EventManagementApi\\Models\\Entities\\Results.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwA8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:00:15.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Program.cs",
+              "RelativeDocumentMoniker": "EventManagement.Mvc\\Program.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Program.cs",
+              "RelativeToolTip": "EventManagement.Mvc\\Program.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAswD0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T09:12:04.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UpdateResultDto.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\Results\\UpdateResultDto.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\DTOs\\Results\\UpdateResultDto.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\Results\\UpdateResultDto.cs",
+              "RelativeToolTip": "EventManagementApi\\DTOs\\Results\\UpdateResultDto.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAYwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:34:43.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ParticipantApiService.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Services\\ParticipantApiService.cs",
+              "RelativeDocumentMoniker": "EventManagement.Mvc\\Services\\ParticipantApiService.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Services\\ParticipantApiService.cs",
+              "RelativeToolTip": "EventManagement.Mvc\\Services\\ParticipantApiService.cs",
+              "ViewState": "AgIAADIBAAAAAAAAAAAowEQBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T15:42:09.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "OrganiserApiService.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Services\\OrganiserApiService.cs",
+              "RelativeDocumentMoniker": "EventManagement.Mvc\\Services\\OrganiserApiService.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Services\\OrganiserApiService.cs",
+              "RelativeToolTip": "EventManagement.Mvc\\Services\\OrganiserApiService.cs",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAswLIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T18:09:20.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "EnrolmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Controllers\\EnrolmentsController.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\Controllers\\EnrolmentsController.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Controllers\\EnrolmentsController.cs",
+              "RelativeToolTip": "EventManagementApi\\Controllers\\EnrolmentsController.cs",
+              "ViewState": "AgIAAAYBAAAAAAAAAAAowBgBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:16:32.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "EnrolmentViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Models\\ViewModels\\EnrolmentViewModel.cs",
+              "RelativeDocumentMoniker": "EventManagement.Mvc\\Models\\ViewModels\\EnrolmentViewModel.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Models\\ViewModels\\EnrolmentViewModel.cs",
+              "RelativeToolTip": "EventManagement.Mvc\\Models\\ViewModels\\EnrolmentViewModel.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAuwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T17:00:56.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CreateResultDto.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\Results\\CreateResultDto.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\DTOs\\Results\\CreateResultDto.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\Results\\CreateResultDto.cs",
+              "RelativeToolTip": "EventManagementApi\\DTOs\\Results\\CreateResultDto.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA1wBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:34:31.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "EventViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Models\\ViewModels\\EventViewModel.cs",
+              "RelativeDocumentMoniker": "EventManagement.Mvc\\Models\\ViewModels\\EventViewModel.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Models\\ViewModels\\EventViewModel.cs",
+              "RelativeToolTip": "EventManagement.Mvc\\Models\\ViewModels\\EventViewModel.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T15:54:55.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "OrganiserDashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Models\\ViewModels\\OrganiserDashboardViewModel.cs",
+              "RelativeDocumentMoniker": "EventManagement.Mvc\\Models\\ViewModels\\OrganiserDashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Models\\ViewModels\\OrganiserDashboardViewModel.cs",
+              "RelativeToolTip": "EventManagement.Mvc\\Models\\ViewModels\\OrganiserDashboardViewModel.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAuwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T12:55:54.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Views\\Organisers\\Edit.cshtml",
+              "RelativeDocumentMoniker": "EventManagement.Mvc\\Views\\Organisers\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Views\\Organisers\\Edit.cshtml",
+              "RelativeToolTip": "EventManagement.Mvc\\Views\\Organisers\\Edit.cshtml",
+              "ViewState": "AgIAADQAAAAAAAAAAAAswEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-08T18:23:06.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Views\\Organisers\\Details.cshtml",
+              "RelativeDocumentMoniker": "EventManagement.Mvc\\Views\\Organisers\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Views\\Organisers\\Details.cshtml",
+              "RelativeToolTip": "EventManagement.Mvc\\Views\\Organisers\\Details.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAswDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-08T18:22:35.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Participants.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Models\\Entities\\Participants.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\Models\\Entities\\Participants.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Models\\Entities\\Participants.cs",
+              "RelativeToolTip": "EventManagementApi\\Models\\Entities\\Participants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T11:04:27.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Program.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Program.cs",
+              "RelativeToolTip": "EventManagementApi\\Program.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAswF8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T10:24:49.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "EventManagement.Mvc\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "EventManagement.Mvc\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAD0BAAAAAAAAAAAcwFEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-11-09T15:54:57.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "EventManagement.Mvc\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "EventManagement.Mvc\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAswLAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-08T12:09:31.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "EventManagement.Mvc\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "EventManagement.Mvc\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAswHIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-09T06:56:24.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAHoVAAAAAAAAAAAqwHEVAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-11-09T12:37:45.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\Services\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "EventManagementApi\\Services\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T10:38:11.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "EventManagementApi\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAwwDkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T10:39:20.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "OrganisersController.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Controllers\\OrganisersController.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\Controllers\\OrganisersController.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Controllers\\OrganisersController.cs",
+              "RelativeToolTip": "EventManagementApi\\Controllers\\OrganisersController.cs",
+              "ViewState": "AgIAALgAAAAAAAAAAADwv74AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:15:50.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Organiser.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Models\\Entities\\Organiser.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\Models\\Entities\\Organiser.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Models\\Entities\\Organiser.cs",
+              "RelativeToolTip": "EventManagementApi\\Models\\Entities\\Organiser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:23:15.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Dockerfile",
+              "RelativeDocumentMoniker": "EventManagementApi\\Dockerfile",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Dockerfile",
+              "RelativeToolTip": "EventManagementApi\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-09T11:47:22.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Dockerfile",
+              "RelativeDocumentMoniker": "EventManagement.Mvc\\Dockerfile",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Dockerfile",
+              "RelativeToolTip": "EventManagement.Mvc\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-09T11:49:01.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "EventManagement.Mvc.csproj",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\EventManagement.Mvc.csproj",
+              "RelativeDocumentMoniker": "EventManagement.Mvc\\EventManagement.Mvc.csproj",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\EventManagement.Mvc.csproj",
+              "RelativeToolTip": "EventManagement.Mvc\\EventManagement.Mvc.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-11-09T07:38:31.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "EventManagement.Mvc",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\EventManagement.Mvc.csproj",
+              "RelativeDocumentMoniker": "EventManagement.Mvc\\EventManagement.Mvc.csproj",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\EventManagement.Mvc.csproj",
+              "RelativeToolTip": "EventManagement.Mvc\\EventManagement.Mvc.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-11-09T07:36:54.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "EventManagement.Mvc\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "EventManagement.Mvc\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAAIMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T11:49:47.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "EnrolmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Controllers\\EnrolmentsController.cs",
+              "RelativeDocumentMoniker": "EventManagement.Mvc\\Controllers\\EnrolmentsController.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Controllers\\EnrolmentsController.cs",
+              "RelativeToolTip": "EventManagement.Mvc\\Controllers\\EnrolmentsController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAJkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T17:21:52.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Models\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "EventManagement.Mvc\\Models\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Models\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "EventManagement.Mvc\\Models\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T11:40:50.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "EventManagement.Mvc\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "EventManagement.Mvc\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T12:07:59.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "EventManagement.Mvc\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\appsettings.Development.json",
+              "RelativeToolTip": "EventManagement.Mvc\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-09T07:05:40.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Views\\Organisers\\Delete.cshtml",
+              "RelativeDocumentMoniker": "EventManagement.Mvc\\Views\\Organisers\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Views\\Organisers\\Delete.cshtml",
+              "RelativeToolTip": "EventManagement.Mvc\\Views\\Organisers\\Delete.cshtml",
+              "ViewState": "AgIAACYAAAAAAAAAAAAswDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-08T18:23:20.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "OrganiserViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Models\\ViewModels\\OrganiserViewModel.cs",
+              "RelativeDocumentMoniker": "EventManagement.Mvc\\Models\\ViewModels\\OrganiserViewModel.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Models\\ViewModels\\OrganiserViewModel.cs",
+              "RelativeToolTip": "EventManagement.Mvc\\Models\\ViewModels\\OrganiserViewModel.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAswBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T18:08:35.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "CreateOrganiserDto.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\Organisers\\CreateOrganiserDto.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\DTOs\\Organisers\\CreateOrganiserDto.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\Organisers\\CreateOrganiserDto.cs",
+              "RelativeToolTip": "EventManagementApi\\DTOs\\Organisers\\CreateOrganiserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:29:25.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "OrganiserResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\Organisers\\OrganiserResponseDto.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\DTOs\\Organisers\\OrganiserResponseDto.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\Organisers\\OrganiserResponseDto.cs",
+              "RelativeToolTip": "EventManagementApi\\DTOs\\Organisers\\OrganiserResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:29:49.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "EventCategoryResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\EventCategories\\EventCategoryResponseDto.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\DTOs\\EventCategories\\EventCategoryResponseDto.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\EventCategories\\EventCategoryResponseDto.cs",
+              "RelativeToolTip": "EventManagementApi\\DTOs\\EventCategories\\EventCategoryResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:32:26.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "EnrolmentResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\Enrolments\\EnrolmentResponseDto.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\DTOs\\Enrolments\\EnrolmentResponseDto.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\Enrolments\\EnrolmentResponseDto.cs",
+              "RelativeToolTip": "EventManagementApi\\DTOs\\Enrolments\\EnrolmentResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:34:17.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "OrganisersControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi.Tests\\Controllers\\OrganisersControllerTests.cs",
+              "RelativeDocumentMoniker": "EventManagementApi.Tests\\Controllers\\OrganisersControllerTests.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi.Tests\\Controllers\\OrganisersControllerTests.cs",
+              "RelativeToolTip": "EventManagementApi.Tests\\Controllers\\OrganisersControllerTests.cs",
+              "ViewState": "AgIAALAAAAAAAAAAAAAUwJYAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T13:27:38.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "EventCategoryViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Models\\ViewModels\\EventCategoryViewModel.cs",
+              "RelativeDocumentMoniker": "EventManagement.Mvc\\Models\\ViewModels\\EventCategoryViewModel.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Models\\ViewModels\\EventCategoryViewModel.cs",
+              "RelativeToolTip": "EventManagement.Mvc\\Models\\ViewModels\\EventCategoryViewModel.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAswBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T17:16:02.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Services\\Implementations\\AuthService.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\Services\\Implementations\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Services\\Implementations\\AuthService.cs",
+              "RelativeToolTip": "EventManagementApi\\Services\\Implementations\\AuthService.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAAAHUAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T10:38:44.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "EnrolmentCreateViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Models\\ViewModels\\EnrolmentCreateViewModel.cs",
+              "RelativeDocumentMoniker": "EventManagement.Mvc\\Models\\ViewModels\\EnrolmentCreateViewModel.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Models\\ViewModels\\EnrolmentCreateViewModel.cs",
+              "RelativeToolTip": "EventManagement.Mvc\\Models\\ViewModels\\EnrolmentCreateViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T17:21:13.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "EnrolNow.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Views\\Enrolments\\EnrolNow.cshtml",
+              "RelativeDocumentMoniker": "EventManagement.Mvc\\Views\\Enrolments\\EnrolNow.cshtml",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Views\\Enrolments\\EnrolNow.cshtml",
+              "RelativeToolTip": "EventManagement.Mvc\\Views\\Enrolments\\EnrolNow.cshtml",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAswH8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-08T17:23:15.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "EventCategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Controllers\\EventCategoriesController.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\Controllers\\EventCategoriesController.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Controllers\\EventCategoriesController.cs",
+              "RelativeToolTip": "EventManagementApi\\Controllers\\EventCategoriesController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAswEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T17:12:18.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "CreateEnrolmentRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\Auth\\CreateEnrolmentRequest.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\DTOs\\Auth\\CreateEnrolmentRequest.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\Auth\\CreateEnrolmentRequest.cs",
+              "RelativeToolTip": "EventManagementApi\\DTOs\\Auth\\CreateEnrolmentRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T16:12:40.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "EnrolmentsControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi.Tests\\Controllers\\EnrolmentsControllerTests.cs",
+              "RelativeDocumentMoniker": "EventManagementApi.Tests\\Controllers\\EnrolmentsControllerTests.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi.Tests\\Controllers\\EnrolmentsControllerTests.cs",
+              "RelativeToolTip": "EventManagementApi.Tests\\Controllers\\EnrolmentsControllerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJEAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T16:17:00.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "EventManagement.Mvc\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "EventManagement.Mvc\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAIwFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-08T11:57:34.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "EventManagement.Mvc\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "EventManagement.Mvc\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-08T11:52:17.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "AuthenticationApiService.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Services\\AuthenticationApiService.cs",
+              "RelativeDocumentMoniker": "EventManagement.Mvc\\Services\\AuthenticationApiService.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Services\\AuthenticationApiService.cs",
+              "RelativeToolTip": "EventManagement.Mvc\\Services\\AuthenticationApiService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T11:43:51.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "ApiAuthResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Models\\ViewModels\\ApiAuthResponse.cs",
+              "RelativeDocumentMoniker": "EventManagement.Mvc\\Models\\ViewModels\\ApiAuthResponse.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Models\\ViewModels\\ApiAuthResponse.cs",
+              "RelativeToolTip": "EventManagement.Mvc\\Models\\ViewModels\\ApiAuthResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T11:41:27.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "RegisterViewMode.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Models\\ViewModels\\RegisterViewMode.cs",
+              "RelativeDocumentMoniker": "EventManagement.Mvc\\Models\\ViewModels\\RegisterViewMode.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Models\\ViewModels\\RegisterViewMode.cs",
+              "RelativeToolTip": "EventManagement.Mvc\\Models\\ViewModels\\RegisterViewMode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T11:40:16.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\Auth\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\DTOs\\Auth\\RegisterRequest.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\Auth\\RegisterRequest.cs",
+              "RelativeToolTip": "EventManagementApi\\DTOs\\Auth\\RegisterRequest.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwBsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T10:32:35.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "EventManagementApi.Tests.csproj",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi.Tests\\EventManagementApi.Tests.csproj",
+              "RelativeDocumentMoniker": "EventManagementApi.Tests\\EventManagementApi.Tests.csproj",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi.Tests\\EventManagementApi.Tests.csproj",
+              "RelativeToolTip": "EventManagementApi.Tests\\EventManagementApi.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-11-08T10:48:26.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "ApiConnectionService.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Services\\ApiConnectionService.cs",
+              "RelativeDocumentMoniker": "EventManagement.Mvc\\Services\\ApiConnectionService.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Services\\ApiConnectionService.cs",
+              "RelativeToolTip": "EventManagement.Mvc\\Services\\ApiConnectionService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T09:20:41.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "AuthResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\Auth\\AuthResponse.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\DTOs\\Auth\\AuthResponse.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\Auth\\AuthResponse.cs",
+              "RelativeToolTip": "EventManagementApi\\DTOs\\Auth\\AuthResponse.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAzwAoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T10:33:15.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\Auth\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\DTOs\\Auth\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\Auth\\LoginRequest.cs",
+              "RelativeToolTip": "EventManagementApi\\DTOs\\Auth\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T10:32:59.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "EventManagementApi\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA5wCQAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T09:57:55.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Views\\ApiStatus\\Index.cshtml",
+              "RelativeDocumentMoniker": "EventManagement.Mvc\\Views\\ApiStatus\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Views\\ApiStatus\\Index.cshtml",
+              "RelativeToolTip": "EventManagement.Mvc\\Views\\ApiStatus\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-08T09:36:06.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "ApiStatusController.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Controllers\\ApiStatusController.cs",
+              "RelativeDocumentMoniker": "EventManagement.Mvc\\Controllers\\ApiStatusController.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Controllers\\ApiStatusController.cs",
+              "RelativeToolTip": "EventManagement.Mvc\\Controllers\\ApiStatusController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwBIAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T09:31:19.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Models\\Entities\\Users.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\Models\\Entities\\Users.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Models\\Entities\\Users.cs",
+              "RelativeToolTip": "EventManagementApi\\Models\\Entities\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T13:59:09.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "EventManagementApi\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowEYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:17:25.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Views\\ApiStatus\\Index.cshtml",
+              "RelativeDocumentMoniker": "EventManagement.Mvc\\Views\\ApiStatus\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagement.Mvc\\Views\\ApiStatus\\Index.cshtml",
+              "RelativeToolTip": "EventManagement.Mvc\\Views\\ApiStatus\\Index.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-08T09:42:33.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "TestDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi.Tests\\Helpers\\TestDbContextFactory.cs",
+              "RelativeDocumentMoniker": "EventManagementApi.Tests\\Helpers\\TestDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi.Tests\\Helpers\\TestDbContextFactory.cs",
+              "RelativeToolTip": "EventManagementApi.Tests\\Helpers\\TestDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAcwAwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T12:52:14.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "UsersControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi.Tests\\Controllers\\UsersControllerTests.cs",
+              "RelativeDocumentMoniker": "EventManagementApi.Tests\\Controllers\\UsersControllerTests.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi.Tests\\Controllers\\UsersControllerTests.cs",
+              "RelativeToolTip": "EventManagementApi.Tests\\Controllers\\UsersControllerTests.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAAAEwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T12:54:38.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\AppData\\Roaming\\Microsoft\\UserSecrets\\02712c26-ea1a-42c7-aa46-5c950c595469\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\02712c26-ea1a-42c7-aa46-5c950c595469\\secrets.json",
+              "ToolTip": "C:\\Users\\Jan Seopa\\AppData\\Roaming\\Microsoft\\UserSecrets\\02712c26-ea1a-42c7-aa46-5c950c595469\\secrets.json",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\02712c26-ea1a-42c7-aa46-5c950c595469\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-15T15:33:03.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "EventService.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Services\\Implementations\\EventService.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\Services\\Implementations\\EventService.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Services\\Implementations\\EventService.cs",
+              "RelativeToolTip": "EventManagementApi\\Services\\Implementations\\EventService.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAowIMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:40:00.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "IEventService.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Services\\Interfaces\\IEventService.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\Services\\Interfaces\\IEventService.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Services\\Interfaces\\IEventService.cs",
+              "RelativeToolTip": "EventManagementApi\\Services\\Interfaces\\IEventService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:37:12.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "CreateEventDto.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\Events\\CreateEventDto.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\DTOs\\Events\\CreateEventDto.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\Events\\CreateEventDto.cs",
+              "RelativeToolTip": "EventManagementApi\\DTOs\\Events\\CreateEventDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:30:04.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "EventConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Data\\Configurations\\EventConfiguration.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\Data\\Configurations\\EventConfiguration.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Data\\Configurations\\EventConfiguration.cs",
+              "RelativeToolTip": "EventManagementApi\\Data\\Configurations\\EventConfiguration.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA9wBkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:18:58.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "EventResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\Events\\EventResponseDto.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\DTOs\\Events\\EventResponseDto.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\Events\\EventResponseDto.cs",
+              "RelativeToolTip": "EventManagementApi\\DTOs\\Events\\EventResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:30:25.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "UpdateEventDto.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\Events\\UpdateEventDto.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\DTOs\\Events\\UpdateEventDto.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\Events\\UpdateEventDto.cs",
+              "RelativeToolTip": "EventManagementApi\\DTOs\\Events\\UpdateEventDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:30:15.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "EventManagementApi\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:42:48.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Mappings\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\Mappings\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Mappings\\MappingProfile.cs",
+              "RelativeToolTip": "EventManagementApi\\Mappings\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:42:30.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "ResultService.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Services\\Implementations\\ResultService.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\Services\\Implementations\\ResultService.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Services\\Implementations\\ResultService.cs",
+              "RelativeToolTip": "EventManagementApi\\Services\\Implementations\\ResultService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:41:11.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "EnrolmentService.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Services\\Implementations\\EnrolmentService.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\Services\\Implementations\\EnrolmentService.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Services\\Implementations\\EnrolmentService.cs",
+              "RelativeToolTip": "EventManagementApi\\Services\\Implementations\\EnrolmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:40:57.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "ParticipantService.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Services\\Implementations\\ParticipantService.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\Services\\Implementations\\ParticipantService.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Services\\Implementations\\ParticipantService.cs",
+              "RelativeToolTip": "EventManagementApi\\Services\\Implementations\\ParticipantService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:40:49.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Services\\Implementations\\CategoryService.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\Services\\Implementations\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Services\\Implementations\\CategoryService.cs",
+              "RelativeToolTip": "EventManagementApi\\Services\\Implementations\\CategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:40:39.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "OrganiserService.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Services\\Implementations\\OrganiserService.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\Services\\Implementations\\OrganiserService.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Services\\Implementations\\OrganiserService.cs",
+              "RelativeToolTip": "EventManagementApi\\Services\\Implementations\\OrganiserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:40:29.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Services\\Implementations\\UserService.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\Services\\Implementations\\UserService.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Services\\Implementations\\UserService.cs",
+              "RelativeToolTip": "EventManagementApi\\Services\\Implementations\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:40:19.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "IResultService.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Services\\Interfaces\\IResultService.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\Services\\Interfaces\\IResultService.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Services\\Interfaces\\IResultService.cs",
+              "RelativeToolTip": "EventManagementApi\\Services\\Interfaces\\IResultService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:38:25.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "IEnrolmentService.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Services\\Interfaces\\IEnrolmentService.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\Services\\Interfaces\\IEnrolmentService.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Services\\Interfaces\\IEnrolmentService.cs",
+              "RelativeToolTip": "EventManagementApi\\Services\\Interfaces\\IEnrolmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:38:14.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "IParticipantService.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Services\\Interfaces\\IParticipantService.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\Services\\Interfaces\\IParticipantService.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Services\\Interfaces\\IParticipantService.cs",
+              "RelativeToolTip": "EventManagementApi\\Services\\Interfaces\\IParticipantService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:38:02.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Services\\Interfaces\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\Services\\Interfaces\\ICategoryService.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Services\\Interfaces\\ICategoryService.cs",
+              "RelativeToolTip": "EventManagementApi\\Services\\Interfaces\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:37:50.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "IOrganiserService.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Services\\Interfaces\\IOrganiserService.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\Services\\Interfaces\\IOrganiserService.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Services\\Interfaces\\IOrganiserService.cs",
+              "RelativeToolTip": "EventManagementApi\\Services\\Interfaces\\IOrganiserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:37:38.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 108,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Services\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\Services\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Services\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "EventManagementApi\\Services\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:37:27.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 109,
+              "Title": "UpdateEnrolmentDto.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\Enrolments\\UpdateEnrolmentDto.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\DTOs\\Enrolments\\UpdateEnrolmentDto.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\Enrolments\\UpdateEnrolmentDto.cs",
+              "RelativeToolTip": "EventManagementApi\\DTOs\\Enrolments\\UpdateEnrolmentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:34:07.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 110,
+              "Title": "CreateEnrolmentDto.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\Enrolments\\CreateEnrolmentDto.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\DTOs\\Enrolments\\CreateEnrolmentDto.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\Enrolments\\CreateEnrolmentDto.cs",
+              "RelativeToolTip": "EventManagementApi\\DTOs\\Enrolments\\CreateEnrolmentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:33:57.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 111,
+              "Title": "ParticipantResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\Participants\\ParticipantResponseDto.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\DTOs\\Participants\\ParticipantResponseDto.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\Participants\\ParticipantResponseDto.cs",
+              "RelativeToolTip": "EventManagementApi\\DTOs\\Participants\\ParticipantResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:33:02.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 112,
+              "Title": "UpdateParticipantDto.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\Participants\\UpdateParticipantDto.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\DTOs\\Participants\\UpdateParticipantDto.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\Participants\\UpdateParticipantDto.cs",
+              "RelativeToolTip": "EventManagementApi\\DTOs\\Participants\\UpdateParticipantDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:32:51.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 113,
+              "Title": "CreateParticipantDto.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\Participants\\CreateParticipantDto.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\DTOs\\Participants\\CreateParticipantDto.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\Participants\\CreateParticipantDto.cs",
+              "RelativeToolTip": "EventManagementApi\\DTOs\\Participants\\CreateParticipantDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:32:41.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 114,
+              "Title": "CreateEventCategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\EventCategories\\CreateEventCategoryDto.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\DTOs\\EventCategories\\CreateEventCategoryDto.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\EventCategories\\CreateEventCategoryDto.cs",
+              "RelativeToolTip": "EventManagementApi\\DTOs\\EventCategories\\CreateEventCategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:32:15.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 115,
+              "Title": "CategoryResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\Categories\\CategoryResponseDto.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\DTOs\\Categories\\CategoryResponseDto.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\Categories\\CategoryResponseDto.cs",
+              "RelativeToolTip": "EventManagementApi\\DTOs\\Categories\\CategoryResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:31:51.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 116,
+              "Title": "UpdateCategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\Categories\\UpdateCategoryDto.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\DTOs\\Categories\\UpdateCategoryDto.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\Categories\\UpdateCategoryDto.cs",
+              "RelativeToolTip": "EventManagementApi\\DTOs\\Categories\\UpdateCategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:31:40.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 117,
+              "Title": "CreateCategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\Categories\\CreateCategoryDto.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\DTOs\\Categories\\CreateCategoryDto.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\Categories\\CreateCategoryDto.cs",
+              "RelativeToolTip": "EventManagementApi\\DTOs\\Categories\\CreateCategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:31:23.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 118,
+              "Title": "UserResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\Users\\UserResponseDto.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\DTOs\\Users\\UserResponseDto.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\Users\\UserResponseDto.cs",
+              "RelativeToolTip": "EventManagementApi\\DTOs\\Users\\UserResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:28:54.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 119,
+              "Title": "UpdateUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\Users\\UpdateUserDto.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\DTOs\\Users\\UpdateUserDto.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\Users\\UpdateUserDto.cs",
+              "RelativeToolTip": "EventManagementApi\\DTOs\\Users\\UpdateUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:28:41.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 120,
+              "Title": "CreateUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\Users\\CreateUserDto.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\DTOs\\Users\\CreateUserDto.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\DTOs\\Users\\CreateUserDto.cs",
+              "RelativeToolTip": "EventManagementApi\\DTOs\\Users\\CreateUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:28:30.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 121,
+              "Title": "ResultConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Data\\Configurations\\ResultConfiguration.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\Data\\Configurations\\ResultConfiguration.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Data\\Configurations\\ResultConfiguration.cs",
+              "RelativeToolTip": "EventManagementApi\\Data\\Configurations\\ResultConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:20:02.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 122,
+              "Title": "EnrolmentConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Data\\Configurations\\EnrolmentConfiguration.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\Data\\Configurations\\EnrolmentConfiguration.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Data\\Configurations\\EnrolmentConfiguration.cs",
+              "RelativeToolTip": "EventManagementApi\\Data\\Configurations\\EnrolmentConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:19:47.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 123,
+              "Title": "ParticipantConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Data\\Configurations\\ParticipantConfiguration.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\Data\\Configurations\\ParticipantConfiguration.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Data\\Configurations\\ParticipantConfiguration.cs",
+              "RelativeToolTip": "EventManagementApi\\Data\\Configurations\\ParticipantConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:19:36.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 124,
+              "Title": "EventCategoryConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Data\\Configurations\\EventCategoryConfiguration.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\Data\\Configurations\\EventCategoryConfiguration.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Data\\Configurations\\EventCategoryConfiguration.cs",
+              "RelativeToolTip": "EventManagementApi\\Data\\Configurations\\EventCategoryConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:19:23.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 125,
+              "Title": "CategoryConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Data\\Configurations\\CategoryConfiguration.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\Data\\Configurations\\CategoryConfiguration.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Data\\Configurations\\CategoryConfiguration.cs",
+              "RelativeToolTip": "EventManagementApi\\Data\\Configurations\\CategoryConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:19:10.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 126,
+              "Title": "OrganiserConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Data\\Configurations\\OrganiserConfiguration.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\Data\\Configurations\\OrganiserConfiguration.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Data\\Configurations\\OrganiserConfiguration.cs",
+              "RelativeToolTip": "EventManagementApi\\Data\\Configurations\\OrganiserConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:18:45.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 127,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Data\\Configurations\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "EventManagementApi\\Data\\Configurations\\UserConfiguration.cs",
+              "ToolTip": "C:\\Users\\Jan Seopa\\source\\repos\\EventManagementApi\\EventManagementApi\\Data\\Configurations\\UserConfiguration.cs",
+              "RelativeToolTip": "EventManagementApi\\Data\\Configurations\\UserConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T14:18:34.152Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

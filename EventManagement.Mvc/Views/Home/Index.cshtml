@@ -1,0 +1,115 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<section class="home-hero mb-5">
+    <div class="home-content">
+
+        <span class="hero-label">Welcome to RaceDay</span>
+
+        <h1>Every Event Starts With a Great Experience.</h1>
+
+        <p>
+            RaceDay brings event organisers and participants together.
+            Create events, manage registrations and keep track of
+            your event activities in one convenient platform.
+        </p>
+
+        @if (User.Identity?.IsAuthenticated == true)
+        {
+            @if (User.IsInRole("Organiser"))
+            {
+                <a asp-controller="Organisers"
+                   asp-action="Dashboard"
+                   class="btn btn-light btn-lg me-2">
+                    Organiser Dashboard
+                </a>
+            }
+            else if (User.IsInRole("Participant"))
+            {
+                <a asp-controller="ParticipantDashboard"
+                   asp-action="Index"
+                   class="btn btn-light btn-lg me-2">
+                    My Dashboard
+                </a>
+            }
+        }
+        else
+        {
+            <a asp-controller="Account"
+               asp-action="Register"
+               class="btn btn-light btn-lg me-2 mb-2">
+                Get Started
+            </a>
+
+            <a asp-controller="Account"
+               asp-action="Login"
+               class="btn btn-outline-light btn-lg mb-2">
+                Sign In
+            </a>
+        }
+
+    </div>
+</section>
+
+<section class="container mb-5">
+
+    <div class="text-center mb-4">
+        <h2 class="section-heading">Everything You Need for Your Events</h2>
+
+        <p class="text-muted">
+            A simple platform for organising and participating in events.
+        </p>
+    </div>
+
+    <div class="row g-4">
+
+        <div class="col-md-4">
+            <div class="feature-card">
+                <div class="feature-icon">01</div>
+
+                <h5 class="section-heading">Event Management</h5>
+
+                <p class="text-muted mb-0">
+                    Organisers can manage event information and
+                    monitor their event activities.
+                </p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="feature-card">
+                <div class="feature-icon">02</div>
+
+                <h5 class="section-heading">Participant Registration</h5>
+
+                <p class="text-muted mb-0">
+                    Participants can access their dashboard and
+                    manage their event enrolments.
+                </p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="feature-card">
+                <div class="feature-icon">03</div>
+
+                <h5 class="section-heading">Event Tracking</h5>
+
+                <p class="text-muted mb-0">
+                    Keep track of event information, registrations
+                    and important event updates.
+                </p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="text-center py-4 mb-3">
+    <h3 class="section-heading">Your Events. Your Experience. RaceDay.</h3>
+
+    <p class="text-muted">
+        Bringing organisers and participants together.
+    </p>
+</section>

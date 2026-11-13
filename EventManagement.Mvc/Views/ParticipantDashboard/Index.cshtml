@@ -1,0 +1,442 @@
+﻿@model EventManagement.Mvc.Models.ViewModels.ParticipantDashboardViewModel
+
+@{
+    ViewData["Title"] = "Participant Dashboard";
+
+    var participantInitial = string.IsNullOrWhiteSpace(Model?.FirstName)
+        ? "?"
+        : Model.FirstName[..1].ToUpperInvariant();
+}
+
+<div class="container mt-4">
+
+    <h2>Participant Dashboard</h2>
+
+    <p class="text-muted">
+        Welcome to your Event Management dashboard.
+    </p>
+
+    <!-- SUCCESS MESSAGE -->
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show mt-3"
+             role="alert">
+
+            @TempData["SuccessMessage"]
+
+            <button type="button"
+                    class="btn-close"
+                    data-bs-dismiss="alert"
+                    aria-label="Close">
+            </button>
+        </div>
+    }
+
+    <!-- ERROR MESSAGE -->
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger alert-dismissible fade show mt-3"
+             role="alert">
+
+            @TempData["ErrorMessage"]
+
+            <button type="button"
+                    class="btn-close"
+                    data-bs-dismiss="alert"
+                    aria-label="Close">
+            </button>
+        </div>
+    }
+
+    @if (Model == null)
+    {
+        <div class="alert alert-danger">
+            @(ViewBag.Error ?? "Unable to load your profile.")
+        </div>
+    }
+    else
+    {
+        <!-- PARTICIPANT PROFILE -->
+        <div class="card shadow-sm mt-4">
+
+            <div class="card-header bg-primary text-white">
+                <h4 class="mb-0">My Profile</h4>
+            </div>
+
+            <div class="card-body">
+
+                <!-- PROFILE PICTURE -->
+                <div class="text-center mb-4">
+
+                    <img src="@Url.Action("ProfilePicture", "ParticipantDashboard")"
+                         alt="Participant profile picture"
+                         class="rounded-circle shadow"
+                         style="width:150px; height:150px; object-fit:cover;"
+                         onerror="this.style.display='none'; document.getElementById('defaultProfilePicture').style.display='flex';" />
+
+                    <!-- DEFAULT PROFILE PICTURE -->
+                    <div id="defaultProfilePicture"
+                         class="rounded-circle bg-light border shadow mx-auto"
+                         style="display:none; width:150px; height:150px; align-items:center; justify-content:center;">
+
+                        <span class="text-secondary fw-bold"
+                              style="font-size:50px;">
+                            @participantInitial
+                        </span>
+
+                    </div>
+
+                    <h5 class="mt-3">
+                        @Model.FirstName @Model.LastName
+                    </h5>
+
+                    <p class="text-muted">
+                        Participant
+                    </p>
+
+                    <!-- UPLOAD PROFILE PICTURE FORM -->
+                    <form asp-controller="ParticipantDashboard"
+                          asp-action="UploadProfilePicture"
+                          method="post"
+                          enctype="multipart/form-data"
+                          class="mt-3">
+
+                        @Html.AntiForgeryToken()
+
+                        <div class="mb-3">
+                            <input type="file"
+                                   name="file"
+                                   class="form-control"
+                                   accept="image/*"
+                                   required />
+                        </div>
+
+                        <button type="submit"
+                                class="btn btn-primary">
+                            Upload Profile Picture
+                        </button>
+
+                    </form>
+
+                </div>
+
+                <hr />
+
+                <!-- PARTICIPANT DETAILS -->
+                <h5>Personal Information</h5>
+
+                <dl class="row mt-3">
+
+                    <dt class="col-sm-4">Participant ID</dt>
+                    <dd class="col-sm-8">
+                        @Model.ParticipantId
+                    </dd>
+
+                    <dt class="col-sm-4">First Name</dt>
+                    <dd class="col-sm-8">
+                        @Model.FirstName
+                    </dd>
+
+                    <dt class="col-sm-4">Last Name</dt>
+                    <dd class="col-sm-8">
+                        @Model.LastName
+                    </dd>
+
+                    <dt class="col-sm-4">Email</dt>
+                    <dd class="col-sm-8">
+                        @Model.Email
+                    </dd>
+
+                    <dt class="col-sm-4">Date of Birth</dt>
+                    <dd class="col-sm-8">
+                        @(Model.DateOfBirth?.ToString("dd MMMM yyyy") ?? "Not provided")
+                    </dd>
+
+                    <dt class="col-sm-4">Emergency Contact</dt>
+                    <dd class="col-sm-8">
+                        @(Model.EmergencyContactName ?? "Not provided")
+                    </dd>
+
+                    <dt class="col-sm-4">Emergency Number</dt>
+                    <dd class="col-sm-8">
+                        @(Model.EmergencyContactNumber ?? "Not provided")
+                    </dd>
+
+                </dl>
+
+            </div>
+        </div>
+
+        <!-- MY ENROLMENTS -->
+        <div class="mt-5">
+
+            <h3>My Enrolments</h3>
+
+            <p class="text-muted">
+                View the events you have registered for.
+            </p>
+
+            @if (!string.IsNullOrWhiteSpace(Model.MyEnrolmentsError))
+            {
+                <div class="alert alert-warning">
+                    @Model.MyEnrolmentsError
+                </div>
+            }
+            else if (Model.MyEnrolments.Any())
+            {
+                <div class="table-responsive">
+
+                    <table class="table table-bordered table-hover align-middle">
+
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Event</th>
+                                <th>Category</th>
+                                <th>Enrolment Date</th>
+                                <th>Status</th>
+                                <th>Race Number</th>
+                                <th>Entry Fee</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+
+                            @foreach (var enrolment in Model.MyEnrolments)
+                            {
+                                <tr>
+
+                                    <td>@enrolment.EventName</td>
+
+                                    <td>@enrolment.CategoryName</td>
+
+                                    <td>
+                                        @enrolment.EnrolledAt.ToString("dd MMM yyyy")
+                                    </td>
+
+                                    <td>
+                                        @if (enrolment.Status == "Confirmed")
+                                        {
+                                            <span class="badge bg-success">
+                                                Confirmed
+                                            </span>
+                                        }
+                                        else
+                                        {
+                                            <span class="badge bg-warning text-dark">
+                                                @enrolment.Status
+                                            </span>
+                                        }
+                                    </td>
+
+                                    <td>
+                                        @(string.IsNullOrWhiteSpace(enrolment.RaceNumber)
+                                            ? "Not assigned"
+                                            : enrolment.RaceNumber)
+                                    </td>
+
+                                    <td>
+                                        @enrolment.EntryFee.ToString(
+                                            "C",
+                                            System.Globalization.CultureInfo.GetCultureInfo("en-ZA"))
+                                    </td>
+
+                                </tr>
+                            }
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+            }
+            else
+            {
+                <div class="alert alert-info">
+                    You have not enrolled in any events yet.
+                </div>
+            }
+
+        </div>
+
+        <!-- MY RACE RESULTS -->
+        <div class="mt-5">
+
+            <h3>My Race Results</h3>
+
+            <p class="text-muted">
+                View your recorded race results and finishing positions.
+            </p>
+
+            @if (!string.IsNullOrWhiteSpace(Model.MyResultsError))
+            {
+                <div class="alert alert-warning">
+                    Unable to load your race results:
+                    @Model.MyResultsError
+                </div>
+            }
+            else if (Model.MyResults.Any())
+            {
+                <div class="table-responsive">
+
+                    <table class="table table-bordered table-hover align-middle">
+
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Event</th>
+                                <th>Category</th>
+                                <th>Race Number</th>
+                                <th>Position</th>
+                                <th>Finish Time</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+
+                            @foreach (var result in Model.MyResults)
+                            {
+                                <tr>
+
+                                    <td>@result.EventName</td>
+
+                                    <td>@result.CategoryName</td>
+
+                                    <td>
+                                        @(string.IsNullOrWhiteSpace(result.RaceNumber)
+                                            ? "Not assigned"
+                                            : result.RaceNumber)
+                                    </td>
+
+                                    <td>
+                                        @(result.Position?.ToString() ?? "Not available")
+                                    </td>
+
+                                    <td>
+                                        @(result.FinishTime?.ToString(@"hh\:mm\:ss")
+                                            ?? "Not recorded")
+                                    </td>
+
+                                    <td>
+                                        @if (result.ResultStatus == "Finished")
+                                        {
+                                            <span class="badge bg-success">
+                                                Finished
+                                            </span>
+                                        }
+                                        else
+                                        {
+                                            <span class="badge bg-warning text-dark">
+                                                @result.ResultStatus
+                                            </span>
+                                        }
+                                    </td>
+
+                                </tr>
+                            }
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+            }
+            else
+            {
+                <div class="alert alert-info">
+                    No race results are available for you yet.
+                </div>
+            }
+
+        </div>
+
+        <!-- AVAILABLE EVENTS -->
+        <div class="mt-5">
+
+            <h3>Available Events</h3>
+
+            <p class="text-muted">
+                Explore upcoming events and find one you would like to participate in.
+            </p>
+
+            @if (!string.IsNullOrWhiteSpace(Model.AvailableEventsError))
+            {
+                <div class="alert alert-warning">
+                    @Model.AvailableEventsError
+                </div>
+            }
+            else if (Model.AvailableEvents.Any())
+            {
+                <div class="row">
+
+                    @foreach (var eventItem in Model.AvailableEvents)
+                    {
+                        <div class="col-md-6 col-lg-4 mb-4">
+
+                            <div class="card h-100 shadow-sm">
+
+                                <div class="card-header bg-light">
+                                    <h5 class="mb-0">
+                                        @eventItem.EventName
+                                    </h5>
+                                </div>
+
+                                <div class="card-body">
+
+                                    <p class="card-text">
+                                        @(eventItem.Description ??
+                                            "No event description available.")
+                                    </p>
+
+                                    <hr />
+
+                                    <p>
+                                        <strong>Event Date:</strong><br />
+                                        @eventItem.EventDate.ToString("dd MMMM yyyy")
+                                    </p>
+
+                                    <p>
+                                        <strong>Location:</strong><br />
+                                        @(eventItem.Location ?? "Not specified")
+                                    </p>
+
+                                    <p>
+                                        <strong>Event ID:</strong>
+                                        @eventItem.EventId
+                                    </p>
+
+                                </div>
+
+                                <!-- ENROL NOW BUTTON -->
+                                <div class="card-footer bg-white d-flex justify-content-between align-items-center">
+
+                                    <span class="badge bg-success">
+                                        Available
+                                    </span>
+
+                                    <a asp-controller="Enrolments"
+                                       asp-action="EnrolNow"
+                                       asp-route-eventId="@eventItem.EventId"
+                                       class="btn btn-primary btn-sm">
+                                        Enrol Now
+                                    </a>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    }
+
+                </div>
+            }
+            else
+            {
+                <div class="alert alert-info">
+                    No events are currently available.
+                </div>
+            }
+
+        </div>
+    }
+
+</div>

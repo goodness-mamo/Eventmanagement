@@ -1,0 +1,142 @@
+﻿@model EventManagement.Mvc.Models.ViewModels.UpdateResultViewModel
+
+@{
+    ViewData["Title"] = "Edit Race Result";
+}
+
+<div class="container mt-4">
+
+    <div class="card shadow-sm">
+
+        <div class="card-header">
+            <h3>Edit Race Result</h3>
+        </div>
+
+        <div class="card-body">
+
+            <form asp-action="Edit"
+                  asp-route-id="@Model.ResultId"
+                  method="post">
+
+                <input type="hidden" asp-for="ResultId" />
+
+                <div asp-validation-summary="ModelOnly"
+                     class="alert alert-danger">
+                </div>
+
+                <!-- Result ID -->
+                <div class="mb-3">
+
+                    <label class="form-label">
+                        Result ID
+                    </label>
+
+                    <input type="text"
+                           class="form-control"
+                           value="@Model.ResultId"
+                           readonly />
+
+                </div>
+
+                <!-- Finishing Position -->
+                <div class="mb-3">
+
+                    <label asp-for="Position"
+                           class="form-label">
+                        Finishing Position
+                    </label>
+
+                    <input asp-for="Position"
+                           type="number"
+                           min="1"
+                           class="form-control"
+                           placeholder="e.g. 1" />
+
+                    <span asp-validation-for="Position"
+                          class="text-danger">
+                    </span>
+
+                </div>
+
+                <!-- Finish Time -->
+                <div class="mb-3">
+
+                    <label asp-for="FinishTime"
+                           class="form-label">
+                        Finish Time
+                    </label>
+
+                    <input asp-for="FinishTime"
+                           type="time"
+                           step="1"
+                           class="form-control" />
+
+                    <span asp-validation-for="FinishTime"
+                          class="text-danger">
+                    </span>
+
+                    <small class="text-muted">
+                        Enter the participant's finishing time, if available.
+                    </small>
+
+                </div>
+
+                <!-- Result Status -->
+                <div class="mb-3">
+
+                    <label asp-for="ResultStatus"
+                           class="form-label">
+                        Result Status
+                    </label>
+
+                    <select asp-for="ResultStatus"
+                            class="form-select">
+
+                        <option value="Finished">
+                            Finished
+                        </option>
+
+                        <option value="DidNotFinish">
+                            Did Not Finish
+                        </option>
+
+                        <option value="Disqualified">
+                            Disqualified
+                        </option>
+
+                    </select>
+
+                    <span asp-validation-for="ResultStatus"
+                          class="text-danger">
+                    </span>
+
+                </div>
+
+                <!-- Form Actions -->
+                <div class="mt-4">
+
+                    <button type="submit"
+                            class="btn btn-primary">
+                        Update Result
+                    </button>
+
+                    <a asp-action="Index"
+                       class="btn btn-secondary">
+                        Cancel
+                    </a>
+
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+
+</div>
+
+@section Scripts {
+
+    <partial name="_ValidationScriptsPartial" />
+
+}
+

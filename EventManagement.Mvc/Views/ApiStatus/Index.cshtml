@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "API Connection Status";
+}
+
+<div class="container mt-5">
+
+    <h2>Event Management API Integration</h2>
+
+    <hr />
+
+    @if (ViewBag.ApiConnected == true)
+    {
+        <div class="alert alert-success">
+            <h4>API Connection Successful!</h4>
+            <p>@ViewBag.ApiMessage</p>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-danger">
+            <h4>API Connection Failed</h4>
+            <p>@ViewBag.ApiMessage</p>
+        </div>
+    }
+
+</div>

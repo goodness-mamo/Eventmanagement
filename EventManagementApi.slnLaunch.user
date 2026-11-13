@@ -1,0 +1,19 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "EventManagementApi.Tests\\EventManagementApi.Tests.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "EventManagementApi\\EventManagementApi.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "EventManagement.Mvc\\EventManagement.Mvc.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

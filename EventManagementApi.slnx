@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="EventManagement.Mvc/EventManagement.Mvc.csproj" Id="0fc640fb-9341-4fc0-89de-ba1f5d85edda" />
+  <Project Path="EventManagementApi.Tests/EventManagementApi.Tests.csproj" Id="4ae000c7-0fdb-4865-8525-9469e78dfe54" />
+  <Project Path="EventManagementApi/EventManagementApi.csproj" />
+</Solution>
