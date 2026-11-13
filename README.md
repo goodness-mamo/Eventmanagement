@@ -399,7 +399,7 @@ Possible improvements include:
 - Improved mobile responsiveness.
 - Complete Docker Compose deployment for the API and MVC website.
 - Continuous Integration and Continuous Deployment using GitHub Actions.
-
+![Build Status](https://github.com/goodness-mamo/Eventmanagement/actions/workflows/main.yml/badge.svg)
 ## 16. Conclusion
 
 The Event Management System provides a centralised platform for managing sporting events, organisers, participants, enrolments and results.
