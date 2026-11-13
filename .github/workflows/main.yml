@@ -8,40 +8,31 @@ on:
   pull_request:
     branches:
       - main
-
   workflow_dispatch:
 
 jobs:
   build-and-test:
-
     name: Build and Run Tests
-
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Get the source code
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      # Step 2: Install .NET 10
-      - name: Setup .NET 10
+      - name: Install .NET 10
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '10.0.x'
 
-      # Step 3: Restore NuGet packages
       - name: Restore Dependencies
         run: dotnet restore EventManagementApi.slnx
 
-      # Step 4: Build the solution
       - name: Build Solution
         run: dotnet build EventManagementApi.slnx --configuration Release --no-restore
 
-      # Step 5: Run automated tests
       - name: Run Unit Tests
-        run: dotnet test EventManagementApi.Tests/EventManagementApi.Tests.csproj --configuration Release --no-build --verbosity normal
+        run: dotnet test EventManagementApi.Tests/EventManagementApi.Tests.csproj --configuration Release --no-build --logger "console;verbosity=normal"
 
-      # Step 6: Display successful completion
-      - name: CI Completed
+      - name: CI Success Message
         if: success()
-        run: echo "Event Management System build and tests completed successfully!"
+        run: echo "Build and tests completed successfully!"
