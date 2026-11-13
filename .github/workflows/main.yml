@@ -24,6 +24,9 @@ jobs:
         with:
           dotnet-version: '10.0.x'
 
+      - name: Display .NET Version
+        run: dotnet --version
+
       - name: Restore Dependencies
         run: dotnet restore EventManagementApi.slnx
 
@@ -31,16 +34,12 @@ jobs:
         run: dotnet build EventManagementApi.slnx --configuration Release --no-restore
 
       - name: Run Unit Tests
-        run: >
-          dotnet test EventManagementApi.Tests/EventManagementApi.Tests.csproj
-          --configuration Release
-          --no-build
-          --logger "trx;LogFileName=test-results.trx"
+        run: dotnet test EventManagementApi.Tests/EventManagementApi.Tests.csproj --configuration Release --no-build --logger "trx;LogFileName=test-results.trx"
 
       - name: Upload Test Results
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: EventManagement-Test-Results
+          name: Event-Management-Test-Results
           path: '**/test-results.trx'
           if-no-files-found: ignore
